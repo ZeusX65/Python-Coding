@@ -1,6 +1,6 @@
 import tkinter as tk
 r = tk.Tk()
 r.title('Ye Ahh tu') #title of the window
-button = tk.Button(r, text='Stop', width=40, command=r.destroy)
+button = tk.Button(r, text='Stop', width=40, command=r.destroy) #set the size of button
 button.pack()
 r.mainloop()
