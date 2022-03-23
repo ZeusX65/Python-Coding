@@ -4,3 +4,14 @@ r.title('Ye Ahh tu') #title of the window
 button = tk.Button(r, text='Stop', width=40, command=r.destroy) #set the size of button
 button.pack()
 r.mainloop()
+
+
+from tkinter import *
+master = Tk()
+w = Canvas(master, width=40, height=60)
+w.pack()
+canvas_height=20
+canvas_width=200
+y = int(canvas_height / 2)
+w.create_line(0, y, canvas_width, y )
+mainloop()
